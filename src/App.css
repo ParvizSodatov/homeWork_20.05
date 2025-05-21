@@ -1,0 +1,25 @@
+.table {
+  width: 70% !important;
+  margin: auto !important;
+  text-align: center;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 20px;
+}
+
+.add {
+  text-align: center !important;
+}
+body{
+  background-color:  rgb(216, 213, 213);
+}

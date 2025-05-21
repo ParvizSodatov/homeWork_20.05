@@ -1,0 +1,28 @@
+.actions {
+  /* width: 300px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  grid-area: 30px;
+}
+
+  color="error"
+                      style={{ fontSize: "30px", cursor: "pointer" }}
+                      onClick={() => handleDel(user.id)}
+
+table {
+  margin-top: 600px !important;
+  text-align: center;
+  width: 70% !important;
+  margin: auto !important;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 20px;
+}
+.add{
+  text-align: center !important;
+  
+}
