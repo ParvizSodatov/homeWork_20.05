@@ -7,9 +7,7 @@
   grid-area: 30px;
 }
 
-  color="error"
-                      style={{ fontSize: "30px", cursor: "pointer" }}
-                      onClick={() => handleDel(user.id)}
+ 
 
 table {
   margin-top: 600px !important;
