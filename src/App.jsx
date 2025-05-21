@@ -28,11 +28,11 @@ import { DeleteOutlined, DeleteOutlineRounded } from "@mui/icons-material";
 
 export default function App() {
   const [users, setUsers] = useState([
-    { id: 1, name: "Parviz Sodatov", description: "Developer", completed: false },
+    { id: 1, name: "Parviz Sodatov", description: "Developer", completed: true },
     { id: 2, name: "Neymar Jr", description: "Talent", completed: false },
-    { id: 3, name: "Asensio", description: "BadBoy", completed: true },
-    { id: 4, name: "Azam", description: "Goodboy", completed: false },
-    { id: 5, name: "Messi", description: "Goat", completed: true },
+    { id: 3, name: "Asensio", description: "BadBoy", completed: false },
+    { id: 4, name: "Azam", description: "Goodboy", completed: true },
+    { id: 5, name: "Messi", description: "Goat", completed: false },
   ]);
 
   const [addModal, setAddModal] = useState(false);
